@@ -1,7 +1,7 @@
 
 # 🌍 Earthquake Data Analysis Dashboard
 
-This project is a **Streamlit-powered interactive dashboard** that analyzes global earthquake data. Users can explore seismic activity visually and filter earthquakes by date, magnitude, and more — similar to dashboards in tools like Power BI.
+This project is a **Streamlit-powered interactive dashboard** that analyzes global earthquake data. Users can explore seismic activity visually and filter earthquakes by date, magnitude, and more.
 
 ---
 
