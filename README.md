@@ -37,6 +37,7 @@ Minimum required columns:
 - `Latitude`
 - `Longitude`
 - `Magnitude`
+- `Magnitude Type`
 - `Depth`
 
 ---
@@ -46,7 +47,7 @@ Minimum required columns:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/earthquake-dashboard.git
+git clone https://github.com/Mhndv/earthquake-dashboard.git
 cd earthquake-dashboard
 ```
 
