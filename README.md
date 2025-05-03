@@ -28,8 +28,8 @@ This project is a **Streamlit-powered interactive dashboard** that analyzes glob
 
 ## 📁 Dataset
 
-The dashboard uses a CSV file named:  
-**`Earthquakes_Dataset.csv`**
+The dashboard uses a CSV file from kaggle:  
+**[`Earthquakes_Dataset.csv`](https://www.kaggle.com/datasets/usgs/earthquake-database?resource=download)**
 
 Minimum required columns:
 - `Date`
