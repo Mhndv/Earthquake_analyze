@@ -45,7 +45,9 @@ df = add_country_names(load_data())
 st.sidebar.title("🔍 Filters")
 min_date = df['Datetime'].min()
 max_date = df['Datetime'].max()
-start_date, end_date = st.sidebar.date_input("Select Date Range", [min_date, max_date])
+start_date = st.sidebar.date_input("Start Date", value=min_date, min_value=min_date, max_value=max_date)
+end_date = st.sidebar.date_input("End Date", value=max_date, min_value=min_date, max_value=max_date)
+
 min_mag, max_mag = st.sidebar.slider("Select Magnitude Range", float(df['Magnitude'].min()), float(df['Magnitude'].max()), (4.0, 9.1))
 
 #magnitude types filter
