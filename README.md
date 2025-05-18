@@ -3,6 +3,9 @@
 
 This project is a **Streamlit-powered interactive dashboard** that analyzes global earthquake data. Users can explore seismic activity visually and filter earthquakes by date, magnitude, and more.
 
+
+#Try It:
+  https://earthquakeanalyze.streamlit.app/
 ---
 
 ## 📊 Features
