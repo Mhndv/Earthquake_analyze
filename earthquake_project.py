@@ -11,7 +11,7 @@ st.set_page_config(layout="wide")
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv("/Users/mohannedalsahaf/Desktop/Tuwaiq Data Science Bootcamp/Earthquakes_Dataset.csv")
+    df = pd.read_csv("Earthquakes_Dataset.csv")
     df["Datetime"] = pd.to_datetime(df["Date"] + " " + df["Time"], errors='coerce')
     df = df.dropna(subset=['Datetime'])
     df = df[["Datetime", "Latitude", "Longitude", "Depth", "Magnitude", "Magnitude Type"]]
